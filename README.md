@@ -42,7 +42,7 @@
 
 ### Решение 1
 
-На машине кубера
+## На MicroK8S
 
 * Создайте ключ для пользователя:
 
@@ -67,7 +67,7 @@
 ![image](https://github.com/user-attachments/assets/ea84717a-c985-463e-a417-3ad9b264b18f)
 
 
-На узле с kubectl (192.168.2.223)
+## На узле с kubectl 
 
 * Скопировал файлы admon.crt, admon.key и ca.crt с узла MicroK8S на узел kubectl
 

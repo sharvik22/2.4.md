@@ -85,11 +85,18 @@
 
 * Проверка:
 
+## kubectl get pods
+
 ![image](https://github.com/user-attachments/assets/93ae291a-44f5-4449-9af6-723f0d3513fd)
+
+## kubectl logs my-test-pod
 
 ![image](https://github.com/user-attachments/assets/087e5446-61d6-420c-b8b7-d598a70d7bab)
 
+## kubectl describe pod my-test-pod
+
 ![image](https://github.com/user-attachments/assets/ff4c97dd-4015-4620-b3c6-f3bf631873cd)
+
 
 ![image](https://github.com/user-attachments/assets/7036e63e-cb96-4db5-9e88-664e93fb1cf5)
  

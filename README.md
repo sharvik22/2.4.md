@@ -44,25 +44,25 @@
 
 ## На MicroK8S
 
-* Создайте ключ для пользователя:
+* Создал ключ для пользователя:
 
 ![image](https://github.com/user-attachments/assets/0ae0aada-e8bb-4c72-bda1-5369cef53ed1)
 
-* Создайте запрос на подпись сертификата (CSR):
+* Создал запрос на подпись сертификата (CSR):
 
 ![image](https://github.com/user-attachments/assets/09734093-d9a2-4179-9e9e-808007d7463d)
 
-* Подпишите CSR с использованием CA кластера:
+* Подпиписал CSR с использованием CA кластера:
 
 ## openssl x509 -req -in admon.csr -CA /var/snap/microk8s/current/certs/ca.crt -CAkey /var/snap/microk8s/current/certs/ca.key -CAcreateserial -out admon.crt -days 365
 
 ![image](https://github.com/user-attachments/assets/7073caeb-7657-440c-b5c1-ff72c4a20e2f)
 
-* Создайте роль с правами на просмотр логов и описания подов:
+* Создал роль с правами на просмотр логов и описания подов:
 
 ![image](https://github.com/user-attachments/assets/40bff339-d31c-4f2e-a2e6-edad5f950d30)
 
-* Примените привязку:
+* Применил привязку:
 
 ![image](https://github.com/user-attachments/assets/ea84717a-c985-463e-a417-3ad9b264b18f)
 
@@ -71,7 +71,7 @@
 
 * Скопировал файлы admon.crt, admon.key и ca.crt с узла MicroK8S на узел kubectl
 
-* Создайте конфигурационный файл для пользователя:
+* Создал конфигурационный файл для пользователя:
 
 ![image](https://github.com/user-attachments/assets/79e05edd-8c11-49b0-8bc0-83fe05bd8895)
 
@@ -79,13 +79,11 @@
 
 ![image](https://github.com/user-attachments/assets/fe31c524-34b8-4105-97b2-60875e91413a)
 
-![image](https://github.com/user-attachments/assets/cc8456d6-435a-4213-a296-b88fe155c2e0)
-
-тестовый под
+* Создал тестовый под:
 
 ![image](https://github.com/user-attachments/assets/0a99e576-c264-4cb6-b136-a26abad9c390)
 
-* Проверка
+* Проверка:
 
 ![image](https://github.com/user-attachments/assets/93ae291a-44f5-4449-9af6-723f0d3513fd)
 
@@ -96,11 +94,11 @@
 ![image](https://github.com/user-attachments/assets/7036e63e-cb96-4db5-9e88-664e93fb1cf5)
  
 
-* удалил под
+* Удалил под
 
 ![image](https://github.com/user-attachments/assets/d5e0be13-121e-4069-9d89-676ee2d73e75)
 
-* попробывал создать, видим, что у пользователя нет прав на создание
+* Попробывал создать под, видим, что у пользователя нет прав на создание
 
 ![image](https://github.com/user-attachments/assets/5919a390-5059-4e9a-b8c9-19a9ff3b28d0)
 

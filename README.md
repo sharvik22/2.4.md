@@ -79,14 +79,32 @@
 
 ![image](https://github.com/user-attachments/assets/fe31c524-34b8-4105-97b2-60875e91413a)
 
+![image](https://github.com/user-attachments/assets/cc8456d6-435a-4213-a296-b88fe155c2e0)
 
+тестовый под
 
+![image](https://github.com/user-attachments/assets/0a99e576-c264-4cb6-b136-a26abad9c390)
 
+* Проверка
 
+![image](https://github.com/user-attachments/assets/93ae291a-44f5-4449-9af6-723f0d3513fd)
+
+![image](https://github.com/user-attachments/assets/087e5446-61d6-420c-b8b7-d598a70d7bab)
+
+![image](https://github.com/user-attachments/assets/ff4c97dd-4015-4620-b3c6-f3bf631873cd)
+
+![image](https://github.com/user-attachments/assets/7036e63e-cb96-4db5-9e88-664e93fb1cf5)
  
 
+* удалил под
 
-  
+![image](https://github.com/user-attachments/assets/d5e0be13-121e-4069-9d89-676ee2d73e75)
+
+* попробывал создать, видим, что у пользователя нет прав на создание
+
+![image](https://github.com/user-attachments/assets/5919a390-5059-4e9a-b8c9-19a9ff3b28d0)
+
+
 
 ---
 

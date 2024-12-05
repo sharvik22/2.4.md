@@ -46,7 +46,7 @@
 
 * Создайте ключ для пользователя:
 
-[image](https://github.com/user-attachments/assets/34a4b799-1d1d-4716-a65b-dbf09def19d2)
+![image](https://github.com/user-attachments/assets/0ae0aada-e8bb-4c72-bda1-5369cef53ed1)
 
 * Создайте запрос на подпись сертификата (CSR):
 
